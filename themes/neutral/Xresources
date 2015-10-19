@@ -1,0 +1,107 @@
+*faceName: Source Code Pro for Powerline
+*faceSize: 12
+!*.cursorColor: #be765d
+
+!#16181A
+!*foreground: #f0f0f0
+
+!TomorrowNightEighties
+#define t_background        #2d2d2d
+#define t_current_line      #393939
+#define t_selection		#515151
+#define t_foreground		#cccccc
+#define t_comment			#999999
+#define t_red				#f2777a
+#define t_orange			#f99157
+#define t_yellow			#ffcc66
+#define t_green				#99cc99
+#define t_aqua				#66cccc
+#define t_blue				#6699cc
+#define t_purple			#cc99cc
+
+
+*.foreground:   t_foreground
+*.background:   t_background
+*.cursorColor:  #aeafad
+
+! Black / Grey
+*.color0:       #000000
+*.color8:       #666666
+
+! Red / Bright Red
+*.color1:       t_red
+*.color9:       #FF3334
+
+! Green + Bright Green
+*.color2:       t_green
+*.color10:      #9ec400
+
+! Yellow (Orange) + Bright Yellow (Yellow)
+*.color3:       t_orange
+*.color11:      t_yellow
+
+! Blue + Bright Blue
+*.color4:       t_blue
+*.color12:      t_blue
+
+! Magenta (Purple) + Bright Magenta
+*.color5:       t_purple
+*.color13:      #b777e0
+
+! Cyan (Aqua) + Bright Cyan
+*.color6:       t_aqua
+*.color14:      #54ced6
+
+! Light Grey (Selection) + White (Current Line)
+*.color7:       t_selection
+*.color15:      t_current_line
+
+! Autumn:
+!*.foreground:   #5b5b5b
+!*.cursorColor:  #5b5b5b
+!*.color0:       #222222
+!*.color8:       #111111
+!*.color1:       #eb0000
+!*.color9:       #ab0000
+!*.color2:       #aaeb00
+!*.color10:      #66aa00
+!*.color3:       #eebb00
+!*.color11:      #aa7700
+!*.color4:       #00aaeb
+!*.color12:      #0066aa
+!*.color5:       #ebaaeb
+!*.color13:      #aa66aa
+!*.color6:       #00ebeb
+!*.color14:      #00aaaa
+!*.color7:       #ebebeb
+!*.color15:      #fafafa
+
+! underline when default
+*colorUL: #be765d
+
+! vim: set ft=xdefaults:
+!urxvt*font:	xft:Source Code Pro for Powerline:size=11:antialias=true, \
+			xft:DejaVu Sans Mono:style=Book:antialias=false:size=8, \
+            xft:WenQuanYi Bitmap Song:size=8, \
+            xft:FreeSerif:style=Regular, \
+            xft:unifont:style=Medium:antialias=false
+
+!urxvt*font: -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*font: xft:Source Code PRo:pixelsize=12,xft:Inconsolata\ for\ Powerline:pixelsize=12
+urxvt*font: xft:Terminess Powerline:size=28
+uxxvt*skipBuiltinGlyphs: false
+urxvt*letterSpace: -1
+
+urxvt.scrollBar: false
+urxvt*internalBorder: 0
+urxvt*externalBorder: 0
+urxvt*borderLess: false
+
+!background
+urxvt.transparent: false
+urxvt.depth: 32
+urxvt.background: [100]#202020
+urxvt.shading: 0 
+urxvt.fading: 10
+!urxvt.blurRadius: 5
+!

@@ -1,0 +1,51 @@
+@import url("/home/deox/themes/active/barfota.css");
+
+body>div
+{
+	vertical-align: middle;
+
+	display: flex;
+	align-items: center;
+}
+
+#battery-monitor
+{
+	height: 100%;
+	position: absolute;
+	right: 30px;
+	display: flex;
+	align-items: center;
+}
+
+#clock
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bspwm-workspaces
+{
+	height: 100%;
+	position: absolute;
+	left: 30px;
+	display: flex;
+	align-items: center;
+}
+
+#volume-control
+{
+	height: 100%;
+	position: absolute;
+	right: 1000px;
+	display: flex;
+	align-items: center;
+}
+
+#brightness-control
+{
+	height: 100%;
+	position: absolute;
+	left: 1000px;
+	display: flex;
+	align-items: center;
+}

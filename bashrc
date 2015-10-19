@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PATH="/home/$USER/.gem/ruby/2.2.0/bin:/$USER/deox/bin:$PATH"
+PATH="/home/$USER/.gem/ruby/2.2.0/bin:/home/$USER/bin:$PATH"
 
 alias ls='ls --color=auto'
 PS1='\[\e[0;32m\][\u@\h:\w] [$(date +%H:%M:%S)]\n\[\e[0;31m\]$ \[\e[0m\]'

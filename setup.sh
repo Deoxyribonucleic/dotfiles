@@ -16,6 +16,5 @@ ln -fs $PWD/barfota.css ~/.config/barfota/appearance.css
 ln -fs $PWD/xinitrc ~/.xinitrc
 
 # themes
-ln -fs ~/themes/active/Xresources ~/.config/sxhkd/sxhkdrc
 ln -fs ~/themes/active/barfota.json ~/.config/barfota/config.json
 

@@ -5,11 +5,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 " Plugins
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'bling/vim-airline'
-Plugin 'lukerandall/haskellmode-vim'
-Plugin 'Shougo/neocomplete.vim'
-Plugin 'eagletmt/neco-ghc'
+Plugin 'vim-scripts/Align'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'jason0x43/vim-js-indent'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -42,9 +42,9 @@ let g:neocomplete#enable_at_startup = 1
 
 
 " YCM settings
-" let g:ycm_confirm_extra_conf = 0
-" let g:ycm_autoclose_preview_window_after_completion = 1
-" let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 
 " Clighter settings
@@ -65,6 +65,7 @@ set fillchars+=vert:\
 " Keybinds
 nnoremap å :e %:r.cpp<Enter>
 nnoremap Å :e %:r.hpp<Enter>
+
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -82,11 +83,7 @@ highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 let b:neocomplete_sources = ['vim', 'neco-ghc']
 
-" <TAB>: completion.
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-" <C-h>, <BS>: close popup and delete backword char.
-inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
-inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
-inoremap <expr><C-y>  neocomplete#close_popup()
-inoremap <expr><C-e>  neocomplete#cancel_popup()
-" Close popup by <Space>.
+" gvim
+set guioptions-=T
+set guioptions-=r
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+Branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
+
+Time=$(date +%H:%M:%S)
+
+ColorHeader="32"
+ColorPrompt="31"
+
+if [ "$Branch" != "" ]; then
+	Branch=$(printf " [\e[35m$Branch\e[${ColorHeader}m]")
+fi
+
+# Replace leading $HOME with ~
+Path=$(echo $PWD | sed -r "s|^$HOME|~|")
+
+printf "\e[${ColorHeader}m[%s@%s:%s]%s [%s]\e[${ColorPrompt}m\n" "$USER" "$HOSTNAME" "$Path" "$Branch" "$Time"
+

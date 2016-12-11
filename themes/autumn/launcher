@@ -1,4 +1,0 @@
-#!/bin/bash
-
-dmenu_run -s 0 -o 0.0 -fn "Terminess Powerline-28" -nb "#202020" -h 59 -w 380 -x 300 -y 1021 #-dim 0.5
-

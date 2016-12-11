@@ -1,21 +1,23 @@
+# Dual monitors
+~/.screenlayout/dual.sh
+
+# Swedish keyboard layout
 setxkbmap se
 
-~/.screenlayout/multihead.sh
+# Disable mouse acceleration
+xset m 0 0
 
-xrdb ~/themes/active/Xresources  # load X resources
-bash ~/themes/active/background     # set background
+# Build Xresources
+xrdb .Xresources
 
-# background tasks
-sxhkd &                                                         # hotkey
-#compton -c -r 20 --shadow-exclude='class_g = "Dmenu"' &         # compositor
-#redshift -l 57.7:11.9667 &                                      # redshift (gothenburg)
-#node_modules/electron-prebuilt/dist/electron --enable-transparent-visuals --disable-gpu ~/projects/barfota/app &  # barfota
-#node_modules/electron-prebuilt/dist/electron --enable-transparent-visuals --disable-gpu ~/projects/bspwm-window-bars/app &  # barfota
+# Set background
+~/.fehbg
 
-# partial fix to this stupid dpi thing
-xrandr --dpi 96
+# DE setup
+xcompmgr &
+tint2 &
 
-#exec bspwm
-exec startxfce4
+# Openbox WM
+exec openbox-session
 
 

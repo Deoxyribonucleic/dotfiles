@@ -21,7 +21,7 @@ alias ovim=$(which vim)
 alias clip="xclip -selection clipboard"
 
 alias bumblebee="ssh deoxyribonucleic.net"
-alias epsilon="ssh 178.62.201.67"
+alias epsilon="ssh epsilon.systems"
 
 export TERM='rxvt-unicode-256color'
 

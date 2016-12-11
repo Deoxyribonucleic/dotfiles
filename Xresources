@@ -81,20 +81,20 @@
 
 ! vim: set ft=xdefaults:
 !urxvt*font:	xft:Source Code Pro for Powerline:size=11:antialias=true, \
-			xft:DejaVu Sans Mono:style=Book:antialias=false:size=8, \
-            xft:WenQuanYi Bitmap Song:size=8, \
-            xft:FreeSerif:style=Regular, \
-            xft:unifont:style=Medium:antialias=false
+!			xft:DejaVu Sans Mono:style=Book:antialias=false:size=8, \
+!            xft:WenQuanYi Bitmap Song:size=8, \
+!            xft:FreeSerif:style=Regular, \
+!            xft:unifont:style=Medium:antialias=false
 
 !urxvt*font: -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
 !urxvt*font: xft:Source Code PRo:pixelsize=12,xft:Inconsolata\ for\ Powerline:pixelsize=12
-urxvt*font: xft:Terminess Powerline:size=28
+urxvt*font: xft:Terminess Powerline:size=13
 uxxvt*skipBuiltinGlyphs: false
-urxvt*letterSpace: -1
+urxvt*letterSpace: 0
 
 urxvt.scrollBar: false
-urxvt*internalBorder: 0
-urxvt*externalBorder: 0
+!urxvt*internalBorder: 4
+!urxvt*externalBorder: 4
 urxvt*borderLess: false
 
 !background
@@ -103,13 +103,6 @@ urxvt.depth: 32
 urxvt.background: [100]#202020
 urxvt.shading: 0 
 urxvt.fading: 10
-urxvt*backgroundPixmap: /home/themes/glass/wallpaper;style=tiled
+!urxvt*backgroundPixmap: /home/themes/glass/wallpaper;style=tiled
 !urxvt.blurRadius: 5
 !
-!
-
-rofi.width: 500
-rofi.height: 100
-rofi.columns: 1
-rofi.background: argb:80FFFFFF
-

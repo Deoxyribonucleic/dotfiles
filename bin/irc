@@ -1,4 +1,0 @@
-#!/usr/bin/expect
-
-spawn ssh epsilon.systems
-expect \\$ { send "irc;logout\n"; interact }

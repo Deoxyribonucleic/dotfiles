@@ -22,6 +22,7 @@ alias clip="xclip -selection clipboard"
 
 alias bumblebee="ssh deoxyribonucleic.net"
 alias epsilon="ssh epsilon.systems"
+alias irc="ssh -t epsilon.systems tmux attach -t irc"
 
 export TERM='rxvt-unicode-256color'
 

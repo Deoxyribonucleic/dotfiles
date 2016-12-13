@@ -22,7 +22,7 @@ export EDITOR=vim
 alias epsilon="ssh epsilon.systems"
 alias irc="ssh -t epsilon.systems tmux attach -t irc"
 
-export TERM='rxvt-unicode-256color'
+export TERM='xterm-256color'
 
 #eval $(luarocks path)
 #export PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"

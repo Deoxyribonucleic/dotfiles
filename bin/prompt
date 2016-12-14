@@ -4,7 +4,7 @@ Branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
 
 Time=$(date +%H:%M:%S)
 
-ColorHeader="32"
+ColorHeader="34"
 ColorPrompt="31"
 
 if [ "$Branch" != "" ]; then

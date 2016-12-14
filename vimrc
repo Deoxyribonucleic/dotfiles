@@ -1,17 +1,17 @@
 " Vundle
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+"Plugin 'gmarik/Vundle.vim'
 " Plugins
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'bling/vim-airline'
-Plugin 'vim-scripts/Align'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'jason0x43/vim-js-indent'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'bling/vim-airline'
+"Plugin 'vim-scripts/Align'
+"Plugin 'leafgarland/typescript-vim'
+"Plugin 'jason0x43/vim-js-indent'
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+"call vundle#end()            " required
 
 
 " Vim settings

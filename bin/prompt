@@ -4,11 +4,11 @@ Branch=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
 
 Time=$(date +%H:%M:%S)
 
-ColorHeader="32"
+ColorHeader="35"
 ColorPrompt="33"
 
 if [ "$Branch" != "" ]; then
-	Branch=$(printf " [\e[35m$Branch\e[${ColorHeader}m]")
+	Branch=$(printf " [\e[36m$Branch\e[${ColorHeader}m]")
 fi
 
 # Replace leading $HOME with ~

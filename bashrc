@@ -15,7 +15,7 @@ export PROMPT_COMMAND="/home/deox/bin/prompt"
 
 export VISUAL=vim
 export EDITOR=vim
-#alias vim=nvim
+alias vim=vi
 #alias ovim=$(which vim)
 
 #alias bumblebee="ssh deoxyribonucleic.net"
